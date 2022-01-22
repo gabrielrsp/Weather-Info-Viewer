@@ -1,11 +1,12 @@
 import React from 'react'
 import { WeatherDataModel } from '../../models/models'
-import { ItemList, ContainerList, VerticalLine } from './styles'
+import { ItemList, ContainerList, VerticalLine, MobileDetailsLine } from './styles'
 
 export function WeatherDetails ({ main, wind }: WeatherDataModel): JSX.Element {
 
   return (
     <div>
+      <MobileDetailsLine />
       <ContainerList>
         <VerticalLine />
         <ItemList>
@@ -41,8 +42,6 @@ export function WeatherDetails ({ main, wind }: WeatherDataModel): JSX.Element {
           </strong>
         </ItemList>
       </ContainerList>
-
-
     </div>
   )
 }

@@ -30,7 +30,6 @@ export function App () {
     }
   }
 
-  //-16.3716327 -49.3153518
   function handleGetGeolocation () {
 
     navigator.geolocation.getCurrentPosition((position) => {
@@ -46,14 +45,12 @@ export function App () {
   }
 
   useEffect(() => {
-    console.log('aaa')
     handleGetGeolocation()
   }, [refreshData])
 
   if (!location) {
     return <>Para visualizar as informações do clima é preciso habilitar a localização no browser</>
   }
-
 
   return (
     <MainContainer>

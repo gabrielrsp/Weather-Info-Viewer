@@ -7,12 +7,20 @@ export const ItemList = styled.li`
   list-style-type: none;
   margin-bottom: 5px;
   margin-left: 18px;
+
+  @media (max-width: 680px) {
+    margin-left: 0px;
+  }
 `
 
 export const ContainerList = styled.ul`
   width: 300px;
   margin: 0 5px 0 auto;
   margin-right: -60px;
+
+  @media (max-width: 680px) {
+    margin: 15px 0 0 0;
+  }
 `
 
 export const VerticalLine = styled.div`
@@ -23,4 +31,16 @@ export const VerticalLine = styled.div`
   float: left;
   margin-right: 10px;
   margin-top: 2px;
+
+  @media (max-width: 680px) {
+    display: none;
+  }
+`
+export const MobileDetailsLine = styled.hr`
+  visibility: hidden;
+
+  @media (max-width: 680px) {
+    margin-top: 20px;
+    visibility: visible;
+  }
 `

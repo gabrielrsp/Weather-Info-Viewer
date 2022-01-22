@@ -9,4 +9,9 @@ export const ContainerMainWeatherInfo = styled.div`
   strong {
     font-size: 1.2rem;
   }
+
+  @media (max-width: 680px) {
+    display: contents;
+  }
+
 `

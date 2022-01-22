@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const MainContainer = styled.div`
   margin-top: 25px;
   background: var(--text-body);
@@ -12,11 +11,22 @@ export const MainContainer = styled.div`
   h3 {
     text-align: center;
   }
+
+  @media (max-width: 680px) {
+    width: fit-content;
+  }
+
 `
 export const Wrapper = styled.div`
   margin-top: 13px;
   display: flex;
   justify-content: space-evenly; 
+
+  @media (max-width: 680px) {
+    display: grid;
+    width: fit-content;
+  }
+
 `;
 
 export const ReloadButton = styled.button`
@@ -30,9 +40,25 @@ export const ReloadButton = styled.button`
   color: var(--text-title);
   border: 0;
   border-radius: 3px;
+
+  @media (max-width: 680px) {
+    margin-top: 20px;
+  }
+
+  transition-duration: 0.14s;
+ 
+  &:hover {
+    background-color: #cccccc; 
+    color: #2a303c;
+  }
+
 `;
 
 export const ContainerButton = styled.div`
   display: flex;
   justify-content: flex-end;
+
+  @media (max-width: 680px) {
+    justify-content: center;
+  }
 `;
