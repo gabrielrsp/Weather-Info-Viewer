@@ -6,14 +6,6 @@
 
 <h3 align="center">Weather Info Viewer</h3>
 
-<h1 align="center">
-  <img alt="" src="PlatformBuilders.png" width="160px" />
-</h1>
-
-<p align="center">Desafio Front-end da Platform Builders</p>
-
-
-
 ## 💻 Sobre o projeto
 
  Weather Info Viewer é uma aplicação que consume a localização atual do usuário e exibe os dados climáticos da região, utilizando a api Open Weather
