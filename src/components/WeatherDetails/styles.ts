@@ -21,6 +21,7 @@ export const ContainerList = styled.ul`
   @media (max-width: 680px) {
     margin: 15px 0 0 0;
   }
+
 `
 
 export const VerticalLine = styled.div`
