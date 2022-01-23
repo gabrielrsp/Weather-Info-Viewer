@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const GridContainer = styled.div`
   display: grid; 
+  text-align: center;
 `;
 
 export const LineContainer = styled.div`
