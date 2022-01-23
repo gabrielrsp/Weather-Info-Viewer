@@ -38,7 +38,7 @@ Supondo que você já tenha Node.JS e Yarn instalados,
 
 #### Crie uma chave de acesso à API da OpenWeather no site https://openweathermap.org/
 
-#### Crie um arquivo .env na raiz do projeto e atribua a chave gerada na seguinte variável de ambiente
+#### Crie um arquivo .env na raiz do projeto e atribua a chave gerada à seguinte variável de ambiente
 
 REACT_APP_OPEN_WEATHER_KEY='sua-chave-de-acesso-open-weather-api'
 
