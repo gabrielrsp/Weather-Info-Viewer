@@ -8,7 +8,7 @@
 
 ## 💻 Sobre o projeto
 
- Weather Info Viewer é uma aplicação que consume a localização atual do usuário e exibe os dados climáticos da região, utilizando a api Open Weather
+ Weather Info Viewer é uma aplicação que consume a localização atual do usuário e exibe os dados climáticos da região, utilizando a api OpenWeather
 
 ## Demo
 
