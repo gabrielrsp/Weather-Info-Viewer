@@ -6,9 +6,9 @@
 
 <h3 align="center">Weather Info Viewer</h3>
 
-## 💻 Sobre o projeto
+## 💻 About this project
 
- Weather Info Viewer é uma aplicação que utiliza a localização atual do usuário e exibe os dados climáticos da região, consumindo a api OpenWeather
+ Weather Info Viewer is an application that uses the user's current location and displays weather data for the region, consuming the OpenWeather api
 
 ## Demo
 
@@ -17,7 +17,7 @@
 ![](Responsivo.png)
 
 
- #### Tecnologias utilizadas
+ #### Technologies used
 
   -  [ReactJS](https://reactjs.org/)
   -  [Axios](https://github.com/axios/axios)
@@ -26,35 +26,31 @@
 
 ## 🔧 Instalando o projeto
 
-Supondo que você já tenha Node.JS e Yarn instalados,
+Assuming you already have a node and a package manager installed
 
-### Clone este repositório
+### Clone this repository
 
 #### git clone https://github.com/gabrielrsp/Desafio-Platform-Builders
 
-### Instale as dependências
+### Install the dependencies
 
-#### `yarn`
+#### `ex: run yarn`
 
-#### Crie uma chave de acesso à API da OpenWeather no site https://openweathermap.org/
+#### Create your API key from OpenWeather on https://openweathermap.org/
 
-#### Crie um arquivo .env na raiz do projeto e atribua a chave gerada à seguinte variável de ambiente
+#### Create a .env file on the root of the project and assign the generated api key to an environment variable like the example below
 
-REACT_APP_OPEN_WEATHER_KEY='sua-chave-de-acesso-open-weather-api'
+REACT_APP_OPEN_WEATHER_KEY='your-api-key-open-weather-api'
 
-#### Execute a aplicação com o comando
+#### Execute the application
 
-#### `yarn start`
+#### `ex: yarn start`
 
-#### A aplicação irá executar na porta 3000
+#### The application will run on port 3000
 
-Abra [http://localhost:3000](http://localhost:3000) para ver no browser
+Open [http://localhost:3000](http://localhost:3000) to see on the browser
 
-#### Execute a aplicação com o comando
-
-#### `yarn start`
-
-#### Executar documentação StoryBook
+#### To run the StoryBook documentation
 
 #### `yarn storybook`
 
