@@ -24,7 +24,7 @@
   -  [styled-components](https://www.styled-components.com/)
 
 
-## 🔧 Instalando o projeto
+## 🔧 Intalling the project
 
 Assuming you already have a node and a package manager installed
 
